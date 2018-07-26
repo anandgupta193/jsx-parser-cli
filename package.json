@@ -1,0 +1,24 @@
+{
+  "name": "jsx-parser",
+  "version": "1.0.0",
+  "description": "This cli is build for parsing jsx elements which has some specific user defined attributes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "jsx",
+    "parser",
+    "babel",
+    "cli"
+  ],
+  "author": "Anand Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-jsx-element-stripper": "^1.0.2",
+    "chalk": "^2.4.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0"
+  }
+}
